@@ -6,13 +6,12 @@
 /*   By: fmutshar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 12:36:47 by fmutshar          #+#    #+#             */
-/*   Updated: 2020/06/19 12:57:11 by fmutshar         ###   ########.fr       */
+/*   Updated: 2020/06/19 13:02:21 by fmutshar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+ 
+void ft_print_numbers(void);
 
-#include <stdio.h>
-
-int main()
 {
 int num ='0';
 
@@ -21,5 +20,5 @@ int num ='0';
 		putchar(num);
 		num++;
 	}
-	return 0;
+	
 }
