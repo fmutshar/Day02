@@ -6,13 +6,10 @@
 /*   By: fmutshar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/19 11:59:55 by fmutshar          #+#    #+#             */
-/*   Updated: 2020/06/19 12:02:28 by fmutshar         ###   ########.fr       */
+/*   Updated: 2020/06/19 12:20:36 by fmutshar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include <stdio.h>
-
-int main()
+ void ft_print_reverse_alphabet(void);
 {
 	char ch ='z';
 		while( ch>= 'a')
@@ -20,7 +17,6 @@ int main()
 	putchar(ch);
 		ch--;
 }
-return 0;
 }
 
 
