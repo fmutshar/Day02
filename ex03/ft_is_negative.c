@@ -6,23 +6,32 @@
 /*   By: fmutshar <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/06/21 14:07:55 by fmutshar          #+#    #+#             */
-/*   Updated: 2020/06/21 14:08:08 by fmutshar         ###   ########.fr       */
+/*   Updated: 2020/06/26 13:01:59 by fmutshar         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <stdio.h>
 #include <unistd.h>
 
-void ft_is_negative(void)
+void ft_putchar(char c)
 {
-    int number;
-    printf("Enter any Postive number or a Negative number: ");
-    scanf("%d", &number);
-
-    if  (number >= 0) {
-        printf("%d\nP\n",number);
-    }
-    else {
-        printf("%d\nN\n",number);
-    }
+	write(1,&c,1);
 }
+
+void ft_is_negative(int n)
+{
+    if ( n >=0)
+	{
+		ft_putchar('P');
+	}
+		else 
+		{
+          ft_putchar('N');
+	}
+/*
+}
+int main ()
+{
+	ft_is_negative(-2);
+	}
+	*/
